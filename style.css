@@ -430,7 +430,7 @@ ul li a:hover{
   background: linear-gradient(90deg, #fc4a1a, #f7b733);
   color: white;
   border-radius: 20px;
-  padding: 20px;
+  padding: 10px;
 }
 .bg-first {
   background-color: #27323e;
