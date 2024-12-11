@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="home" style="background-color: #27323e; height: 100vh">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg text-uppercase">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#home">
+            <span>Rehab's</span>
+            <span
+              style="
+                background: linear-gradient(90deg, #fc4a1a, #f7b733);
+                -webkit-background-clip: text;
+                color: transparent;
+              "
+            >
+              Portfolio
+            </span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div class="navbar-toggler-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testmonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">footer</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Info Section -->
+      <div class="info d-flex justify-content-evenly align-items-center ">
+        <div class="content">
+          <button class="btn bg-gradient-custom bott">Hello, I'm</button>
+          <h1>Ms. Rehab</h1>
+          <h6>REACT DEVELOPER | UI/UX DESIGNER | FREELANCER</h6>
+          <div class="icons">
+            <!-- LinkedIn Icon -->
+            <a
+              href="https://www.linkedin.com/in/rehab-hosney-abd-elhalim-98253225a"
+            >
+              <i
+                class="fa-brands fa-linkedin mx-2 rounded-circle social-icon"
+              ></i>
+            </a>
+            <!-- Facebook Icon -->
+            <a href="https://www.facebook.com/?locale=ar_AR">
+              <i
+                class="fa-brands fa-facebook mx-2 rounded-circle social-icon"
+              ></i>
+            </a>
+            <!-- GitHub Icon -->
+            <a href="https://github.com/rehabhosney124">
+              <i
+                class="fa-brands fa-github mx-2 rounded-circle social-icon"
+              ></i>
+            </a>
+            <!-- WhatsApp Icon -->
+            <a href="https://wa.me/+201140371511">
+              <i
+                class="fa-brands fa-whatsapp mx-2 rounded-circle social-icon"
+              ></i>
+            </a>
+          </div>
+          <a href="./CV.docx" download class="bg-gradient-custom w-50 mt-2 p-2"
+            >Download CV</a
+          >
+        </div>
+        <!-- Image Section -->
+        <div class="image1">
+          <img src="./t-removebg-preview.png" alt="my-image" />
+        </div>
+      </div>
+      <a
+        href="#about"
+        class="btn d-flex justify-content-start align-items-center about-scroll border border-3 border-warning mb-3 rounded-5 position-absolute bottom-0 start-50"
+      >
+      </a>
+    </div>
+<!-- ////////////////////////////////////////////////////////////////////// -->
+    <!-- About Me Section -->
+    <div class="about" id="about" style="background-color: #212529">
+      <div class="profile-info">
+        <div class=" image2">
+          <img src="./image-about.jpg" alt="Rehab Hosney" />
+        </div>
+        <div class="about-me">
+          <div class="title-container">
+            <h1>About Me</h1>
+            <div class="circle"></div>
+          </div>
+          <p>
+            I'm Rehab Hosny, a dedicated web developer with expertise in HTML,
+            CSS, JavaScript, and React. I have a strong passion for creating
+            responsive designs, developing interactive user interfaces, and
+            delivering seamless user experiences.
+          </p>
+          <p>
+            Skilled in both front-end development and UI/UX design, I
+            consistently work on enhancing my abilities and contributing to
+            innovative projects.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- //////////////////////////////////////////////////////////////// -->
+    <!-- Services Section -->
+    <div class="services-container bg-first">
+      <h1 class="mb-5">Services</h1>
+      <div class="row services">
+        <!-- UI/UX Service -->
+        <div class="col-md-5 col-lg-4 service">
+          <i class="fas fa-pencil-ruler service-icon"></i>
+          <h3 class="service-title">UI/UX Design</h3>
+          <p class="service-description">
+            Crafting user-friendly and visually appealing designs to enhance
+            user experience.
+          </p>
+        </div>
+        <!-- Web Development Service -->
+        <div class="col-md-5 col-lg-4 service">
+          <i class="fas fa-code service-icon"></i>
+          <h3 class="service-title">Web Development</h3>
+          <p class="service-description">
+            Building robust and scalable websites using modern technologies.
+          </p>
+        </div>
+        <!-- Web Design Service -->
+        <div class=" col-md-5 col-lg-4 service">
+          <i class="fas fa-paint-brush service-icon"></i>
+          <h3 class="service-title">Web Design</h3>
+          <p class="service-description">
+            Designing stunning, responsive websites tailored to your brand.
+          </p>
+        </div>
+        <!-- React Development Service -->
+        <div class="col-md-5 col-lg-4 service">
+          <i class="fab fa-react service-icon"></i>
+          <h3 class="service-title">React Development</h3>
+          <p class="service-description">
+            Creating dynamic and high-performance React applications.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- ////////////////////////////////////////////////////////////////////// -->
+    <!-- portfolio -->
+    <div class="container-fluid p-0 m-0 overflow-x-hidden" id="portfolio">
+      <div class="portfolio-title custom-background my-3">Portfolio</div>
+      <div class="row g-0">
+        <!-- العمود الأول -->
+        <div class="col-md-4">
+          <div class="image-container1">
+            <img src="./image.png" alt="Top Image 1" />
+          </div>
+          <div class="row g-0">
+            <div class="col-6">
+              <img src="./page 4.1.png" alt="Bottom Image 1-1" />
+            </div>
+            <div class="col-6">
+              <img src="./page1for food lover.png" alt="Bottom Image 1-2" />
+            </div>
+          </div>
+        </div>
+        <!-- العمود الثاني -->
+        <div class="col-md-4">
+          <div class="image-container1">
+            <img src="./page2 .png" alt="Top Image 2" />
+          </div>
+          <div class="row g-0">
+            <div class="col-6">
+              <img src="./page6.png" alt="Bottom Image 2-1" />
+            </div>
+            <div class="col-6">
+              <img src="./page1for food lover.png" alt="Bottom Image 2-2" />
+            </div>
+          </div>
+        </div>
+        <!-- العمود الثالث -->
+        <div class="col-md-4">
+         
+          <div class="row g-0">
+            <div class="col-6">
+              <img src="./page3.png" alt="Bottom Image 3-1" />
+            </div>
+            <div class="col-6">
+              <img src="./page 4.2.png" alt="Bottom Image 3-2" />
+            </div>
+          </div>
+          <div class="image-container1">
+            <img src="./page5.png" alt="Top Image 3" />
+          </div>
+        </div>
+      </div>
+     <!-- /////////////////////////////////////////////////////////////////////-->
+    <!-- blog -->
+    <div class="c"id="blog">
+      <div class="title-blog">Blog</div>
+      <div class="image-container">
+        <div class="image left-top">
+          <img src="./image1.png" />
+          <img src="./image2.png" />
+        </div>
+        <div class="image middle-top">
+          <img src="./image3.png" />
+        </div>
+        <div class="image middle-bottom">
+          <img src="./image4.png" />
+        </div>
+        <div class="image right-top">
+          <img src="./image6.png" />
+          <img src="./image5.png" />
+        </div>
+      </div>
+    </div>
+    <!-- get in touch -->
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <!-- Left Section: Form -->
+        <div class="col-md-6 mb-4">
+          <h2 class="mb-4 text-uppercase fw-bold">Get In Touch</h2>
+          <form>
+            <div class="row mb-3">
+              <div class="col">
+                <input
+                  type="text"
+                  class="form-control gradient-border bg-dark text-warning border-warning"
+                  placeholder="First name"
+                />
+              </div>
+              <div class="col">
+                <input
+                  type="text"
+                  class="form-control gradient-border bg-dark text-warning border-warning"
+                  placeholder="Last name"
+                />
+              </div>
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control gradient-border bg-dark text-warning border-warning"
+                placeholder="Email"
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control gradient-border bg-dark text-warning border-warning"
+                rows="5"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-gradient">Send</button>
+          </form>
+        </div>
+        <!-- Right Section: Contact Info -->
+        <div class="col-md-6">
+          <div class="contact-info">
+            <h4 class="mb-3">Contact Info</h4>
+            <p>
+                I am a dedicated web developer with a passion for creating
+                innovative and user-friendly website.
+              </p>
+              <p><strong>Address:</strong> Beni-Suef</p>
+              <p><strong>Email:<br></strong>rehabhosneymabeed@gmail.com</p>
+              </strong>rehabhosney780@gmail.com</p>
+              <p><strong>Phone:</strong> +201140371511</p>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- testmonials -->
+    <div class="py-5" id="testmonials" style="background-color: #232c39">
+      <h2 class="text-center testimonial-title">Testimonial</h2>
+      <div class="row g-4 m-auto">
+        <!-- بطاقة -->
+        <div class="col-md-4">
+          <div class="card p-3 m-1">
+            <p>
+              This is a template Figma file, turned into code using Anima. Learn
+              more at AnimaApp.com
+            </p>
+            <div class="d-flex align-items-center mt-3">
+              <img
+                style="width: 40px; height: 40px; border-radius: 50%"
+                src="./image-about.jpg"
+                alt="User"
+                class="rounded-circle me-3"
+              />
+              <div>
+                <h6 class="mb-0">Gemma Nolen</h6>
+                <small>Google</small>
+              </div>
+            </div>
+            <div class="star-rating mt-2">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card p-3 m-1">
+            <p>
+              This is a template Figma file, turned into code using Anima. Learn
+              more at AnimaApp.com
+            </p>
+            <div class="d-flex align-items-center mt-3">
+              <img
+                style="width: 40px; height: 40px; border-radius: 50%"
+                src="./image-about.jpg"
+                alt="User"
+                class="rounded-circle me-3"
+              />
+              <div>
+                <h6 class="mb-0">Gemma Nolen</h6>
+                <small>Google</small>
+              </div>
+            </div>
+            <div class="star-rating mt-2">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="col-md-4">
+          <div class="card p-3 m-1">
+            <p>
+              This is a template Figma file, turned into code using Anima. Learn
+              more at AnimaApp.com
+            </p>
+            <div class="d-flex align-items-center mt-3">
+              <img
+                style="width: 40px; height: 40px; border-radius: 50%"
+                src="./image-about.jpg"
+                alt="User"
+                class="rounded-circle me-1"
+              />
+              <div>
+                <h6 class="mb-0">Gemma Nolen</h6>
+                <small>Google</small>
+              </div>
+            </div>
+            <div class="star-rating mt-2">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="col-md-4">
+          <div class="card p-3 m-1">
+            <p>
+              This is a template Figma file, turned into code using Anima. Learn
+              more at AnimaApp.com
+            </p>
+            <div class="d-flex align-items-center mt-3">
+              <img
+                style="width: 40px; height: 40px; border-radius: 50%"
+                src="./image-about.jpg"
+                alt="User"
+                class="rounded-circle me-3"
+              />
+              <div>
+                <h6 class="mb-0">Gemma Nolen</h6>
+                <small>Google</small>
+              </div>
+            </div>
+            <div class="star-rating mt-2">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="col-md-4">
+          <div class="card p-3 m-1">
+            <p>
+              This is a template Figma file, turned into code using Anima. Learn
+              more at AnimaApp.com
+            </p>
+            <div class="d-flex align-items-center mt-3">
+              <img
+                style="width: 40px; height: 40px; border-radius: 50%"
+                src="./image-about.jpg"
+                alt="User"
+                class="rounded-circle me-3"
+              />
+              <div>
+                <h6 class="mb-0">Gemma Nolen</h6>
+                <small>Google</small>
+              </div>
+            </div>
+            <div class="star-rating mt-2">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <!-- -->
+        <div class="col-md-4">
+          <div class="card p-3 m-1">
+            <p>
+              This is a template Figma file, turned into code using Anima. Learn
+              more at AnimaApp.com
+            </p>
+            <div class="d-flex align-items-center mt-3">
+              <img
+                style="width: 40px; height: 40px; border-radius: 50%"
+                src="./image-about.jpg"
+                alt="User"
+                class="rounded-circle me-3"
+              />
+              <div>
+                <h6 class="mb-0">Gemma Nolen</h6>
+                <small>Google</small>
+              </div>
+            </div>
+            <div class="star-rating mt-2">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="mt-30 px-2" id="footer">
+      <div class="row">
+        <!-- القسم الأول -->
+        <div class="col-md-3">
+          <h5>Rehab Hosney.</h5>
+          <p>front-end developer</p>
+        </div>
+        <!-- القسم الثاني -->
+        <div class="col-md-3">
+          <h6>Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#testmonials">Testmonials</a></li>
+            <li><a href="#footer">footer</a></li>
+          </ul>
+        </div>
+        <!-- القسم الثالث -->
+        <div class="col-md-3">
+          <h6>Help</h6>
+          <ul class="list-unstyled">
+            <li><a href="#">Payment Options</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Privacy Policies</a></li>
+          </ul>
+        </div>
+        <!-- القسم الرابع -->
+        <div class="col-md-3">
+          <h6>Newsletter</h6>
+          <form class="d-flex">
+            <input
+              type="email"
+              class="form-control subscribe-input me-2"
+              placeholder="Enter Your Email Address"
+            />
+            <button type="submit" class="btn subscribe-button">
+              SUBSCRIBE
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-line text-center">
+        <p class="mb-0 text-start">2024 furino. All rights reserved</p>
+      </div>
+    </footer>
+    <script src="/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
